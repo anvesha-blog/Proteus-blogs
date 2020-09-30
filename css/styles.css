@@ -39,6 +39,10 @@ navigation bar  */
   padding-right: 0.5rem;
 }
 
+.navbar-opacity {
+  opacity: 0.8;
+}
+
 
 /* Event sections */
 
@@ -67,8 +71,8 @@ navigation bar  */
   font-size: 3.6rem;
 }
 
-.icon-2 {
-  margin-left: 66px;
+.btn {
+  margin-left: 20px;
 }
 
 .card-text-2 {
@@ -78,11 +82,15 @@ navigation bar  */
 }
 
 .card-position {
-  margin-top: 25px;
+  padding: 2%;
 }
 
 .sub-card:hover {
   filter: drop-shadow(8px 8px 10px gray);
+}
+
+.page-navigator {
+  margin: 50px 15px;
 }
 
 /* Footer section */
@@ -142,5 +150,12 @@ navigation bar  */
 .footer-repost {
   font-family: 'Merienda One', cursive;
   font-size: 2rem;
+  color: #fff;
+}
+
+/* Dark mode webite */
+
+.dark {
+  background-color: black;
   color: #fff;
 }
