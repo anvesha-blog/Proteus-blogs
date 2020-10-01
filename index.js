@@ -1,4 +1,5 @@
 // Like buttons
+
 var count = 0
 
 for (var i = 0; i <= document.querySelectorAll(".btn").length; i++) {
@@ -12,6 +13,7 @@ for (var i = 0; i <= document.querySelectorAll(".btn").length; i++) {
 
   });
 }
+
 
 // For dark mode
 function darkMode () {

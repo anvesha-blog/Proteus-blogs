@@ -153,9 +153,8 @@ navigation bar  */
   color: #fff;
 }
 
-/* Dark mode webite */
+/* Dark mode website */
 
-.dark {
-  background-color: black;
-  color: #fff;
+.darkmode--activated h1 {
+  color: white
 }
